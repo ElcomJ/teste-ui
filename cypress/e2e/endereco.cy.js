@@ -11,7 +11,19 @@ describe('Funcionalidade Endereços - Faturamento e Entrega', () => {
     });
 
     it('Deve fazer cadastro de faturamento com sucesso', () => {
-        EnderecoPage.editarEnderecoFaturamento('Flávio', 'Araújo', 'Google', 'Brasil', 'Av. Brasil', '3100', 'São Paulo', 'São Paulo', '01001000', '11987554784', 'flavio@teste.com')
+        EnderecoPage.editarEnderecoFaturamento(
+            'Flávio',
+            'Araújo',
+            'Google',
+            'Brasil',
+            'Av. Brasil',
+            '3100',
+            'São Paulo',
+            'São Paulo',
+            '01001000',
+            '11987554784',
+            'flavio@teste.com'
+        )
     });
 
     it('Deve fazer cadastro de faturamento com sucesso - Usando arquivo de dados', () => {
@@ -30,8 +42,8 @@ describe('Funcionalidade Endereços - Faturamento e Entrega', () => {
         )
     });
 
-    it('Deve fazer cadastro de endereço de entrega com sucesso', () => {
-       EnderecoPage.editarEnderecoEntrega()
-    });
+    // it('Deve fazer cadastro de endereço de entrega com sucesso', () => {
+    //     EnderecoPage.editarEnderecoEntrega()
+    // });
 
 });

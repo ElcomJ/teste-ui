@@ -138,3 +138,4 @@ dist
 /dataSources/
 /dataSources.local.xml
 .idea/
+cypress/videos/
